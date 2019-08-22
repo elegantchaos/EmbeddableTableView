@@ -44,7 +44,7 @@
 		8B4ACBBD230DA1F7007DBD70 = {
 			isa = PBXGroup;
 			children = (
-				8B4ACBC8230DA1F7007DBD70 /* ScrollStackTableTest */,
+				8B4ACBC8230DA1F7007DBD70 /* EmbeddableTableTest */,
 				8B4ACBC7230DA1F7007DBD70 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -57,7 +57,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		8B4ACBC8230DA1F7007DBD70 /* ScrollStackTableTest */ = {
+		8B4ACBC8230DA1F7007DBD70 /* EmbeddableTableTest */ = {
 			isa = PBXGroup;
 			children = (
 				8B4ACBC9230DA1F7007DBD70 /* AppDelegate.swift */,
@@ -69,7 +69,7 @@
 				8B4ACBD4230DA1F8007DBD70 /* LaunchScreen.storyboard */,
 				8B4ACBD7230DA1F8007DBD70 /* Info.plist */,
 			);
-			path = ScrollStackTableTest;
+			path = EmbeddableTableTest;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -298,7 +298,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2H48644JM2;
-				INFOPLIST_FILE = ScrollStackTableTest/Info.plist;
+				INFOPLIST_FILE = EmbeddableTableTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -316,7 +316,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2H48644JM2;
-				INFOPLIST_FILE = ScrollStackTableTest/Info.plist;
+				INFOPLIST_FILE = EmbeddableTableTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
