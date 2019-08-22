@@ -5,6 +5,10 @@
 
 import UIKit
 
+/// A non-scrolling UITableView that sizes itself correctly to fit its contents.
+/// This behaviour allows it to be embedded in an enclosing UIScrollView
+/// or UIStackView without ambiguity.
+
 public class EmbeddableTableView: UITableView {
     override init(frame: CGRect, style: UITableView.Style) {
         super.init(frame: frame, style: style)
@@ -16,22 +20,22 @@ public class EmbeddableTableView: UITableView {
         super.isScrollEnabled = false
     }
     
-    override var isScrollEnabled: Bool {
+    public override var isScrollEnabled: Bool {
         get { return false }
         set { }
     }
     
-    override var contentSize: CGSize {
+    public override var contentSize: CGSize {
         didSet {
             invalidateIntrinsicContentSize()
         }
     }
     
-    override var intrinsicContentSize: CGSize {
+    public override var intrinsicContentSize: CGSize {
         return contentSize
     }
     
-    override func reloadData() {
+    public override func reloadData() {
         invalidateIntrinsicContentSize()
         super.reloadData()
     }
