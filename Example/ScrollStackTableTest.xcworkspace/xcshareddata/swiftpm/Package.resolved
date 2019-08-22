@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "EmbeddableTableView",
+        "repositoryURL": "git@github.com:elegantchaos/EmbeddableTableView.git",
+        "state": {
+          "branch": null,
+          "revision": "5a379031f4eb572678307d81c2079193032b8ef7",
+          "version": "1.0.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
